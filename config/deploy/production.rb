@@ -60,4 +60,4 @@
 #     # password: 'please use keys'
 #   }
 server '18.116.17.147', user: 'app', roles: %w{app db web}
-set :ssh_options, keys: '/Ubuntu/home/yusuke-ohta/.ssh/id_rsa'
+set :ssh_options, keys: '/home/yusuke-ohta/.ssh/id_rsa'
